@@ -5,6 +5,8 @@ Create pane:
 CTRL + b and press %
 CTRL + b and press "
 
+ Move pane:
+  CTRL + b and press [left,right arrow]
 
 Create window:
 

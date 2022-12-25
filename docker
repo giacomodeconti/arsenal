@@ -1,0 +1,52 @@
+Create image:
+docker pull [image]
+
+
+Run image:
+docker run -d -t --name [name_of_vm] [image]
+
+
+View all running containers:
+docker ps
+
+
+Enter in a container:
+docker exec -it [name_of_vm] [what-do-you-want-to-run, ex: bash or sh]
+  type exit to exit
+
+
+Start / Stop / Restart a container:
+docker [Start / Stop / Restart] [name_of_vm]
+
+Remove container:
+docker rm [name_of_vm]
+  remove all stopped containers:
+    docker container prune
+
+
+Remove image:
+docker rmi [image]
+  more than one:
+    docker rmi [image1] [image2] [image3]
+  unused images:
+    docker image prune
+  or with ID:
+    docker rmi [id, ex: 0123456789ab]
+
+
+Export / Import / Run container:
+  Export:
+    docker export my_container > my_container.tar
+  Import:
+    cat my_container.tar | docker import - my_image:latest
+  Run:
+    docker run -it --name my_container my_image
+
+   
+
+
+    
+
+
+
+

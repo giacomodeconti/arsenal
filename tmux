@@ -28,3 +28,6 @@ Sessions:
     tmux new -s [session_name]
   Kill session:
     tmux kill-session -t [session_number_name]
+
+EXIT:
+ CTRL + b and press d

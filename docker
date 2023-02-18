@@ -6,7 +6,8 @@ docker pull [image]
 
 
 Run image:
-docker run -d -t --name [name_of_vm] [image]
+docker run -itd --rm --name [name_of_vm] [image]
+ex: docker run -itd --rm -p 80:80 --name DVWA vulnerables/web-dvwa
 
 
 View all running containers:

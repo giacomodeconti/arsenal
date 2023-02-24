@@ -1,0 +1,2 @@
+Partition a disk:
+  cfdisk  # Disk partiotioner with user interface via terminal

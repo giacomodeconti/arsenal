@@ -9,7 +9,7 @@
 ### Configuration
 
 1. Exec splunk on boot
-`[sudo] $SPLUNK_HOME/bin/splunk enable boot-start -user bob`
+`[sudo] ./[SPLUNK_HOME]/bin/splunk enable boot-start -user [user]`
 2. Set on never THP (Transparent Huge Pages)
 	- 	Open file
 	`nano /etc/systemd/system/disable-thp.service`

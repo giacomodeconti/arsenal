@@ -26,7 +26,7 @@
 		ExecStart=/bin/sh -c 'echo never | tee /sys/kernel/mm/transparent_hugepage/defrag > /dev/null'
 
 		[Install]
-		WantedBy=basic.target```
+		WantedBy=basic.target
 	-	Reload the services configuration.
 	`systemctl daemon-reload`
 	-	Start the created service.

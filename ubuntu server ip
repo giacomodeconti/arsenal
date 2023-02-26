@@ -1,22 +1,38 @@
-# DHCP
+### how to configure network settings in Linux ( Ubuntu )  
+
+- DHCP
+
 network:
   ethernets:
     enp0s3:
       dhcp4: true
   version: 2
 
+================================================================================= 
+#sudo vi /etc/netplan/00-installer-config.yaml
 
-#Static
-network:
-  version: 2
-  renderer: networkd
-  ethernets:
-    enp0s25:
-      addresses:
-        - 192.168.1.100/24
-      routes:
-        - to: default
-          via: 192.168.1.1
-      nameservers:
-          search: [mydomain, otherdomain]
-          addresses: [1.1.1.1, 8.8.8.8, 4.4.4.4]
+
+
+================================================================================= 
+================================================================================= 
+network: 
+    version: 2 
+    renderer: networkd 
+    ethernets: 
+        ens33: 
+            addresses: 
+                - 10.10.10.131/24 
+            nameservers: 
+                addresses: [8.8.4.4, 8.8.8.8] 
+            routes: 
+                - to: default 
+                  via: 10.10.10.2
+ 
+================================================================================= 
+================================================================================= 
+Please replace the above IP with your IP address and then issue the command below: 
+
+#sudo netplan apply
+
+
+check also, vi /etc/resolv.conf 

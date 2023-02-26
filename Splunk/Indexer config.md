@@ -42,7 +42,7 @@
 	-	Reboot
 	
 ### Backup
-- Remeber to backup this directory before you must stop Splunk
+- Remeber to backup this directory but before you must stop Splunk
 `/opt/splunk/var/lib/splunk/`
 
 ### Remove Indexes

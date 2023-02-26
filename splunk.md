@@ -40,3 +40,11 @@
 	-	Enable the created service during boot.
 	`systemctl enable disable-thp`
 	-	Reboot
+	
+### Backup
+- Remeber to backup this directory before you must stop Splunk
+`/opt/splunk/var/lib/splunk/`
+
+### Remove Indexes
+- This will remove an entire index
+`./splunk clean eventdata -index main -f`

@@ -27,7 +27,7 @@ network:
                   via: 10.10.10.2
  
  ```
-### Please replace the above IP with your IP address and then issue the command below: 
+### Please replace the above IP with your IP address and Network Card: 
 
 - Apply settings `sudo netplan apply`
 

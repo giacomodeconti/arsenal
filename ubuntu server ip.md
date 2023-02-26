@@ -1,20 +1,18 @@
-### how to configure network settings in Linux ( Ubuntu )  
+### Configure network settings in Linux ( Ubuntu )  
+
+- sudo nano /etc/netplan/00-installer-config.yaml
 
 - DHCP
-
+```
 network:
   ethernets:
     enp0s3:
       dhcp4: true
   version: 2
 
-================================================================================= 
-#sudo vi /etc/netplan/00-installer-config.yaml
-
-
-
-================================================================================= 
-================================================================================= 
+```
+- STATIC
+```
 network: 
     version: 2 
     renderer: networkd 
@@ -28,11 +26,9 @@ network:
                 - to: default 
                   via: 10.10.10.2
  
-================================================================================= 
-================================================================================= 
-Please replace the above IP with your IP address and then issue the command below: 
+ ```
+### Please replace the above IP with your IP address and then issue the command below: 
 
-#sudo netplan apply
+- Apply settings `sudo netplan apply`
 
-
-check also, vi /etc/resolv.conf 
+- check also, `nano /etc/resolv.conf`

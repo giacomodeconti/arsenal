@@ -1,6 +1,6 @@
 ### Configure network settings in Linux ( Ubuntu )  
 
-- sudo nano /etc/netplan/00-installer-config.yaml
+- `sudo nano /etc/netplan/00-installer-config.yaml`
 
 - DHCP
 ```

@@ -16,5 +16,6 @@
 `sudo ./splunk add forward-server 192.168.1.100:9997`
 5. Add log files from Forwarder to Indexer
 `sudo ./splunk add monitor /var/log/[log] -index [index]`
+ you can add many logs you want
 
 

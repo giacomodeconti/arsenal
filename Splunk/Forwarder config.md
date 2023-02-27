@@ -18,13 +18,14 @@
 `sudo ./splunk add monitor /var/log/[log] -index [index]`
  you can add many logs you want
 6. Add this inputs.config file for Indexer
-- 
-  ```
-  [monitor:///var/log/syslog]
-  host = UF1
-  disabled = 0
-  index = security
-  sourcetype = syslog
-  host_segment = 3
-  ```
-- Change monitor with file you want to send, host , index, sourcetype
+ - `sudo nano /opt/splunkforwarder/etc/system/local/inputs.conf`
+ - 
+   ```
+   [monitor:///var/log/syslog]
+   host = UF1
+   disabled = 0
+   index = security
+   sourcetype = syslog
+   host_segment = 3
+   ```
+ - Change monitor with file you want to send, host , index, sourcetype

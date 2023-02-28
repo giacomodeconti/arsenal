@@ -1,3 +1,7 @@
+# Configuration of an Deployment Server
+![](https://github.com/giacomodeconti/arsenal/blob/main/Splunk/Deployment%20Server%20intro.jpg)
+![](https://github.com/giacomodeconti/arsenal/blob/main/Splunk/Deployment%20Server.jpg)
+
 # Step 1
 ## Configuration of Deployment Server on Indexer 
 ### Indexer Configuration

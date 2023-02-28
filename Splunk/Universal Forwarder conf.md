@@ -1,6 +1,6 @@
 # Configuration of an Universal Forwarder on Linux
 ## An Universal Forwarder can act like a Proxy
-![](https://github.com/giacomodeconti/arsenal/blob/main/Splunk/Universal%20Forwarder.jpg)
+![](https://github.com/giacomodeconti/arsenal/blob/main/Splunk/img/Universal%20Forwarder.jpg)
 
 ### Configuration
 1. Make a new app in /opt/splunkforwarder/etc/apps/

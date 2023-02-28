@@ -18,7 +18,7 @@
 3. Extract the file in `/opt/splunkforwarder/etc/apps`
 4. Open the Unix App folder and go to **default** and inputs.conf
 5. Enable the monitor log you want to monitor by replacing the 1 with 0 in disabled option, if you enable it remeber to add index option. 
- - For example:
+ - **inputs.conf** example:
     ```
     [monitor:///var/log]
     whitelist=(\.log|log$|messages|secure|auth|mesg$|cron$|acpid$|\.out)
@@ -26,7 +26,25 @@
     disabled = 0    # Enable with 0
     index=linux   # Add index
     ```
-6. Add also outputs.conf in default directory with this config
+ - Remeber for **security** add queue configuration in inputs.conf to avoid diconnections and data loss:
+   ```
+   queueSize = <integer>[KB|MB|GB]
+   * The maximum size of the in-memory input queue.
+   * Default: 500KB
+
+   persistentQueueSize = <integer>[KB|MB|GB|TB]
+   * The maximum size of the persistent queue file.
+   * Persistent queues can help prevent loss of transient data. For information on
+     persistent queues and how the 'queueSize' and 'persistentQueueSize' settings
+     interact, search the online documentation for "persistent queues".
+   * If you set this to a value other than 0, then 'persistentQueueSize' must
+     be larger than either the in-memory queue size (as defined by the 'queueSize'
+     setting in inputs.conf or 'maxSize' settings in [queue] stanzas in
+     server.conf).
+   * Default: 0 (no persistent queue)
+   ```
+6. Add also **outputs.conf** in default directory with this config
+ - **outputs.conf** example:
    ```
    [tcpout]
    defaultGroup = default-autolb-group

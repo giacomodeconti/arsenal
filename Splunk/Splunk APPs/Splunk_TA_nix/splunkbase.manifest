@@ -1,0 +1,353 @@
+{
+  "version": "1.0",
+  "date": "2023-01-25T17:46:24.023707252Z",
+  "hashAlgorithm": "SHA-256",
+  "app": {
+    "id": 833,
+    "version": "8.8.0",
+    "files": [
+      {
+        "path": "LICENSES/Apache-2.0.txt",
+        "hash": "d3910dee6fe9fe134856d76268fe82adb1ade1ecf51b3568b7da6b94894b88f3"
+      },
+      {
+        "path": "LICENSES/LicenseRef-Splunk-8-2021.txt",
+        "hash": "37906d637abbbeca35cfb2efcb658cabbc0208d101848372c1e55fbf9ba62e47"
+      },
+      {
+        "path": "README/restmap.conf.spec",
+        "hash": "db1641a66cc6703fb2aa4f8d26f4041091e7685843befee21ae01cc9735b75c3"
+      },
+      {
+        "path": "README.txt",
+        "hash": "229729a9533d76ddf7352d064d780cf7242104ad50785939dd42cdb53c979e3f"
+      },
+      {
+        "path": "THIRDPARTY",
+        "hash": "9f1d342375d09b68ce3def5b57f02166ce55567db43c1e95e1503927592efa76"
+      },
+      {
+        "path": "VERSION",
+        "hash": "e4e224e961aa088cd881e1a1e9afdf13622ad419074538278e69ce00a52acaa3"
+      },
+      {
+        "path": "app.manifest",
+        "hash": "b44a8350cf790f2003faffed00b4123ae923eecaed35cafa32fe7c2afb822140"
+      },
+      {
+        "path": "appserver/static/appIcon.png",
+        "hash": "f9c626ff7cfe4a23a7831452da080dd1074929efc4ac508229347ee641ccfbd6"
+      },
+      {
+        "path": "appserver/static/components/js_sdk_extensions/common.js",
+        "hash": "295fe307ec286b9b4eb89c4b59dbd6204376e63b7346c26fd1b087446db372c2"
+      },
+      {
+        "path": "appserver/static/components/js_sdk_extensions/monitor_inputs.js",
+        "hash": "27af704acaeb3b98c78ad5322a6171e1b748b5650be809f5d92a4e5618529123"
+      },
+      {
+        "path": "appserver/static/components/js_sdk_extensions/scripted_inputs.js",
+        "hash": "6fe5d6f31a60a86d9988170e1641f13eb315351f890c2247c6de83b3aa372e26"
+      },
+      {
+        "path": "appserver/static/setup.css",
+        "hash": "f27882e6a07bbd87f99f95d77211439e71959efae6d52ce4771ce26d06e0bcc9"
+      },
+      {
+        "path": "appserver/static/setup.js",
+        "hash": "a3d4e2567779b605a97daa3ced2fc49a8e487a5ec4ee95080392824eb74e7e11"
+      },
+      {
+        "path": "bin/bandwidth.sh",
+        "hash": "4da182e234d9f1ac7375f1f73dc381a175de6f6727442760a7a94c202a0d27ee"
+      },
+      {
+        "path": "bin/common.sh",
+        "hash": "8e62abdfdcc59dd1da11c343fc27d82245c5f656b7a83697d1f59b5c0f1cc847"
+      },
+      {
+        "path": "bin/cpu.sh",
+        "hash": "ec7aa1e5a239ae66f7b416a450089df7234fe601627d552f3a9425b8ab2dcfb6"
+      },
+      {
+        "path": "bin/cpu_metric.sh",
+        "hash": "040acac3bfa9ce751a1daa7a7150b6702bfff98e2aeb80fbdbc2926382967d0a"
+      },
+      {
+        "path": "bin/df.sh",
+        "hash": "cf44d7fc37f3e8bd0ad45ad52c6ead1e4eba0c24b7df6591ea81ed9ccefd86a5"
+      },
+      {
+        "path": "bin/df_metric.sh",
+        "hash": "e999a94d3ab396c351aab041212eef23e53c387b0adfff389396dd5acfcf8149"
+      },
+      {
+        "path": "bin/hardware.sh",
+        "hash": "91a7b459aa0902c0279301d1fcb48045a765e949f313f01b537115100849c438"
+      },
+      {
+        "path": "bin/interfaces.sh",
+        "hash": "1201660100788ee93cf04fd204e9cac5fbef57a2e8bfbfe73cf2d8d23e186f15"
+      },
+      {
+        "path": "bin/interfaces_metric.sh",
+        "hash": "5cc4cad57dc23a94837de87c279dd84416ec2aa8562d557c7d7c33b8e87b2bb5"
+      },
+      {
+        "path": "bin/iostat.sh",
+        "hash": "e061b38ecc91dac97e3866303ec9cebdd66bda4c8840f9892ac3a11d6e1119e9"
+      },
+      {
+        "path": "bin/iostat_metric.sh",
+        "hash": "00cd13732819423428e4e0e3e7755ab6166d497eef1532c00a21d4247467a2d3"
+      },
+      {
+        "path": "bin/lastlog.sh",
+        "hash": "49780f6191857ff198d686a5816df33e647953f6b4e2c0b8b74da7544f81d1a1"
+      },
+      {
+        "path": "bin/lsof.sh",
+        "hash": "16271b65b56ed86bd12e4c1f4ab6764ae3a6569303172f816839828cabc7d378"
+      },
+      {
+        "path": "bin/netstat.sh",
+        "hash": "cf59f2d06335063e39c34fc7f943b5036ab950a56e7c854a58c23961f85728cf"
+      },
+      {
+        "path": "bin/nfsiostat.sh",
+        "hash": "b59c6a5209c3d8713fc13b9c6ba5d208c7e5926c7276067bf8059c4ff0515755"
+      },
+      {
+        "path": "bin/openPorts.sh",
+        "hash": "78c65c42a30407cf83e6e5cc02f38a1582892a8b174f2908c9ff6c5008a5185f"
+      },
+      {
+        "path": "bin/openPortsEnhanced.sh",
+        "hash": "84bbce81c94dcad1b4d355c5376e2fce87254345e3ab4691b1ca6f594c78729a"
+      },
+      {
+        "path": "bin/package.sh",
+        "hash": "969e87b45c30d33f97d71f6dee5207ab316fc002974dcc7173fe4282cac49deb"
+      },
+      {
+        "path": "bin/passwd.sh",
+        "hash": "43bbaf6f474b19eaa33bbd3a211c5f05baaca1c8054bb27111300066e8a2a4bc"
+      },
+      {
+        "path": "bin/protocol.sh",
+        "hash": "aa6b5ee56486ff766d7d7fe392a9c19be778dee6f3e4d0c98d10973d150d15ba"
+      },
+      {
+        "path": "bin/ps.sh",
+        "hash": "a6410a2fd13baf04293dabc1bdf87dfb27f9053093c314e7247ef7d7949134fa"
+      },
+      {
+        "path": "bin/ps_metric.sh",
+        "hash": "271df4ffde5b0af2371bb8508c5e25f65c2d565d190bc7a859c6d8a56c1b2728"
+      },
+      {
+        "path": "bin/rlog.sh",
+        "hash": "003f20fcbbc9025938346224a7d8e4482451a70ae4b58d6331519e55d5711c4c"
+      },
+      {
+        "path": "bin/selinuxChecker.sh",
+        "hash": "ee46c84fdc5d1999dca2ce07a783e7c4270599bb31d6e35473d223e9f40cdcf5"
+      },
+      {
+        "path": "bin/service.sh",
+        "hash": "0fb7c94bb476c4509cf0694ea365efbe2b820b547068d310cff11b35a201d252"
+      },
+      {
+        "path": "bin/setup.sh",
+        "hash": "102460dd7db695c753a2710cb7b8202e9a1543eb670d48384eb2b5c014231f8f"
+      },
+      {
+        "path": "bin/setupservice.py",
+        "hash": "67c36b304a1693772b6efea6e06ea23657461d394062e2520f62672ec3fc6766"
+      },
+      {
+        "path": "bin/sshdChecker.sh",
+        "hash": "d01610d6ce7204e7de063bc72b7452c7839de390a764a4bb596f8334b05b6ca5"
+      },
+      {
+        "path": "bin/time.sh",
+        "hash": "86e46cbd14715419905341ebf6894f6df67c38200277b8230c1607ddae70f574"
+      },
+      {
+        "path": "bin/top.sh",
+        "hash": "78281eb09ba3aee954f4fe1e23f03c3f0626cd6d4e7a0b8897a872a88de3caa5"
+      },
+      {
+        "path": "bin/update.sh",
+        "hash": "949192d59612d2703cb09df17f653211c1a8e17094c9bc593d387fe07d5f2b1a"
+      },
+      {
+        "path": "bin/uptime.sh",
+        "hash": "9d47de23f02e8df2d115916aa2d39c670d3906ef535e2ce5d61a9b6040dd2941"
+      },
+      {
+        "path": "bin/usersWithLoginPrivs.sh",
+        "hash": "c9d69fcf12821ba5fdf113d488761811f3e10070587f25ab40a260285678bb4c"
+      },
+      {
+        "path": "bin/version.sh",
+        "hash": "93df3b8c69c7764966d9e86c40ebe0fe68adfa1e41b1ebcb43a2988c1bed15d2"
+      },
+      {
+        "path": "bin/vmstat.sh",
+        "hash": "8d6c38f4ecca1129656aa922d7f3c571b1732c0d097163df62915e1abc27f6ba"
+      },
+      {
+        "path": "bin/vmstat_metric.sh",
+        "hash": "a1329bdb5c7e1768b9cc3b7e2dda9f786b5577635fafe61c6814d3954702bfc9"
+      },
+      {
+        "path": "bin/vsftpdChecker.sh",
+        "hash": "53723f1c6b60bf066aee58d1c9e326ccf393b379d82ff4e01f44a461530c42ed"
+      },
+      {
+        "path": "bin/who.sh",
+        "hash": "ba5c25645e57938297bf85f5869924b9a006f27511b4e7f067e196a9049898cf"
+      },
+      {
+        "path": "default/app.conf",
+        "hash": "08882cbd2d52ef668ef794422031bc9a893cae1be0f8fcefa23e0ba14b64d957"
+      },
+      {
+        "path": "default/data/ui/nav/default.xml",
+        "hash": "36078398f91fa377c21f2369271797cc0016b8ba1a6f271e327cce2809f2711d"
+      },
+      {
+        "path": "default/data/ui/views/ta_nix_configuration.env_cloud.xml",
+        "hash": "d353c157375a04dc5f1dabc3229ef927a2277d6b42d3974b862df50c40b830ae"
+      },
+      {
+        "path": "default/data/ui/views/ta_nix_configuration.xml",
+        "hash": "2d30308510e08aea0a190984fda45b708ab373768796494202a4813c37ef74d2"
+      },
+      {
+        "path": "default/eventtypes.conf",
+        "hash": "5b517737ba9e2543fc3e46d2fc7619451f97c89623225687fb1fbbbafb740ec0"
+      },
+      {
+        "path": "default/inputs.conf",
+        "hash": "2fd8e1d795313cffad4a000d4df4c21813fb73df59d081e7655c956524c2d14a"
+      },
+      {
+        "path": "default/macros.conf",
+        "hash": "1654b2a87cb8c728837d048ecf1f2e9edec701618eae8a9d1d8c3f85958518ae"
+      },
+      {
+        "path": "default/props.conf",
+        "hash": "ad1c668b71104d137d64ac553fa5a084e234d5b0c697ce376d0c28446f18c709"
+      },
+      {
+        "path": "default/restmap.conf",
+        "hash": "0c8a09ad79c266a28d987730706ecd7cd06802aecd1dbf4a3b01fe689fd0d0e7"
+      },
+      {
+        "path": "default/tags.conf",
+        "hash": "c3e8aa2f96f145fb51a5ed3e24f21d1e6c5f4832c888c2581b3f96347c0df192"
+      },
+      {
+        "path": "default/transforms.conf",
+        "hash": "602dd5fc725ddc2af3a1dddaedfa9350fc6b4fefad3943bd8113b6bd8b3356d7"
+      },
+      {
+        "path": "default/web.conf",
+        "hash": "e469e328c8e94caae6059bb3675ac1578a5d7c14a7757b784c1cb988adca9572"
+      },
+      {
+        "path": "lookups/nix_da_update_status.csv",
+        "hash": "a9a794b39377946e0dcb5f70c9c8ba6114fec1728512c9f39cfb0f3eca46159c"
+      },
+      {
+        "path": "lookups/nix_da_version_ranges.csv",
+        "hash": "992529c548d8273e073a988d089fbd5c7fa5c1ef47d51243e9da9dfb77eba6d2"
+      },
+      {
+        "path": "lookups/nix_linux_audit_action_object_category.csv",
+        "hash": "5838950fd3cade537dea91d1dcdcbd10532457fa7de07d397bfc699e56a19867"
+      },
+      {
+        "path": "lookups/nix_linux_service_startmodes.csv",
+        "hash": "dd669b358909f4d9be9d0aef9f4720e78a290e422a90ec3e3cdabe39ed9b8be2"
+      },
+      {
+        "path": "lookups/nix_vendor_actions.csv",
+        "hash": "f287b03905a705fed92dd4a1d1cf060c16b9521aba80b06494af8d5e8530fa97"
+      },
+      {
+        "path": "metadata/default.meta",
+        "hash": "6fa3057938996152cdfeddb46b20a1c079966ba87a56cf7c13c9d35f3caaf2e7"
+      },
+      {
+        "path": "static/appIcon.png",
+        "hash": "5cfd9894a06e3602e13b44838f0fc3e8ac36205ec92142877a285cfecd682375"
+      },
+      {
+        "path": "static/appIconAlt.png",
+        "hash": "6cb62d7fd2d90e69d66c3e4fbede9692f9d650176a7a9ec06edd4026f1de580a"
+      },
+      {
+        "path": "static/appIconAlt_2x.png",
+        "hash": "d7ad6f1263583f5b280b52be4f8806b0d22a4aa6e328a0209212697b6734570c"
+      },
+      {
+        "path": "static/appIconLg.png",
+        "hash": "4084f8916f3bff2f981efb712a8847c8b8c35df414f37c99f6dfdedc7904a590"
+      },
+      {
+        "path": "static/appIconLg_2x.png",
+        "hash": "632759a91cc27f5b258a9993e1169f17ad4e1f469f6300cafb93c9368332b946"
+      },
+      {
+        "path": "static/appIcon_2x.png",
+        "hash": "4084f8916f3bff2f981efb712a8847c8b8c35df414f37c99f6dfdedc7904a590"
+      }
+    ]
+  },
+  "products": [
+    {
+      "platform": "splunk",
+      "product": "enterprise",
+      "versions": [
+        "8.1",
+        "8.2",
+        "9.0"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "operatingSystems": [
+        "windows",
+        "linux",
+        "macos",
+        "freebsd",
+        "solaris",
+        "aix"
+      ]
+    },
+    {
+      "platform": "splunk",
+      "product": "cloud",
+      "versions": [
+        "8.1",
+        "8.2",
+        "9.0"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "operatingSystems": [
+        "windows",
+        "linux",
+        "macos",
+        "freebsd",
+        "solaris",
+        "aix"
+      ]
+    }
+  ]
+}

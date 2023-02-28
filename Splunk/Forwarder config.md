@@ -1,6 +1,6 @@
 # Universal Forwarder configuration for Linux and Windows
  - If you want you can create an index for every OS
-## Linux
+# Linux
 ### Install
 
 1. Need minimum 20gb to run it
@@ -10,7 +10,37 @@
 5. **If you don't have debian just unpack splunk in /opt**
 6. Go to Indexer and open port 9997 for Forwarders or any other port
 
-### Configuration
+## Configuration 
+### Via app ( *Raccomanded* )
+1. Stop splunk Forwarder
+`./splunk/bin/splunk stop`
+2. Download Unix app from [here](https://splunkbase.splunk.com/app/833 "Unix app")
+3. Extract the file in `/opt/splunkforwarder/etc/apps`
+4. Open the Unix App folder and go to **default** and inputs.conf
+5. Enable the monitor log you want to monitor by replacing the 1 with 0 in disabled option, if you enable it remeber to add index option. 
+ - For example:
+    ```
+    [monitor:///var/log]
+    whitelist=(\.log|log$|messages|secure|auth|mesg$|cron$|acpid$|\.out)
+    blacklist=(lastlog|anaconda\.syslog)
+    disabled = 0    # Enable with 0
+    index=linux   # Add index
+    ```
+6. Add also outputs.conf in default directory with this config
+   ```
+   [tcpout]
+   defaultGroup = default-autolb-group
+
+   [tcpout:default-autolb-group]
+   server = 192.168.1.100:9997
+
+   [tcpout-server://192.168.1.100:9997]
+   ```
+   - Change this IP with your index IP
+7. Run Forwarder on boot by user
+`sudo ./splunk enable boot-start -user [user]`
+8. **Done**
+### Via command
 
 1. Stop splunk Forwarder
 `./splunk/bin/splunk stop`

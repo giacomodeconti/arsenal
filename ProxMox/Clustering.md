@@ -27,3 +27,15 @@
 5. In node1 open CLI and type `pvecm create myclustername` change myclustername with the name you have choose for your cluster
 6. In node2 open CLI and type `pvecm add [node1 IP]` here you add the ip of node1 in node2 so the node2 it will be visible on node1
 7. Done
+
+## Raccomanded
+When adding more nodes follow this setup
+
+    
+    ├── master
+    │   └── hdd
+    ├── node1
+    │   └── hdd
+    └── node2
+        └── hdd
+So the master is acting like a main deplyment/monitor server and also to share all templates/iso images to other nodes.

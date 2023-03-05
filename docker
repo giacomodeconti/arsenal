@@ -1,5 +1,5 @@
 INFO:
-  KASM docker
+ KASM docker
 
 Create image:
 docker pull [image]

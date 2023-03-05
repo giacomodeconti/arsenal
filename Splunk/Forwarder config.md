@@ -20,7 +20,7 @@
 5. Enable the monitor log you want to monitor by replacing the 1 with 0 in disabled option, if you enable it remeber to add index option. 
  - **inputs.conf** example:
     ```
-    [monitor:///var/log]
+    [monitor:///var/log]   # Stanza 
     whitelist=(\.log|log$|messages|secure|auth|mesg$|cron$|acpid$|\.out)
     blacklist=(lastlog|anaconda\.syslog)
     disabled = 0    # Enable with 0

@@ -49,3 +49,5 @@
 ### Remove Indexes
 - This will remove an entire index
 `./splunk clean eventdata -index main -f`
+### Reload Configuration
+`https://192.168.1.7:8000/en-US/debug/refresh`

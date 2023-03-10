@@ -1,0 +1,12 @@
+Def=    Definisci una nuova funzione
+continue=     continua il codice in loop con while e for
+for=    ciclio non infinito tramite la funzione range e viene seguito dalla funzione in
+while=   ciclo infinito
+list=   fare una lista grazie alla funzione range
+range=  range dei numeri [es: (1,10)] il numero finale del range è sempre -1. es: range(start, stop, step)
+if=   se (precedena su elif ed else)
+elif=   altrimenti
+else=   infine
+import=   importare delle funzioni. Si usa anche il from per selezionare la categoria di funzione desiderata, altrimenti si usa l'* per tutte
+break=   rompere il ciclo
+continue=   continuare il ciclo

@@ -1,0 +1,30 @@
+print ('')
+print ('---------------------------------------------------------------------------------')
+print ('')
+
+print ('9XXb._       _.dXXXXb dXXXXbo.                 .odXXXXb dXXXXb._       _.dXXP')
+print (' 9XXXXXXXXXXXXXXXXXXXVXXXXXXXXOo.           .oOXXXXXXXXVXXXXXXXXXXXXXXXXXXXP')
+print ("  `9XXXXXXXXXXXXXXXXXXXXX'~   ~`OOO8b   d8OOO'~   ~`XXXXXXXXXXXXXXXXXXXXXP'")
+print ("    `9XXXXXXXXXXXP' `9XX'          `98v8P'          `XXP' `9XXXXXXXXXXXP'")
+print ("        ~~~~~~~       9X.          .db|db.          .XP       ~~~~~~~")
+print ("                        )b.  .dbo.dP'`v'`9b.odb.  .dX(")
+print ("                      ,dXXXXXXXXXXXb     dXXXXXXXXXXXb.")
+print ("                     dXXXXXXXXXXXP'   .   `9XXXXXXXXXXXb")
+print ("                    dXXXXXXXXXXXXb   d|b   dXXXXXXXXXXXXb")
+print ("                    9XXb'   `XXXXXb.dX|Xb.dXXXXX'   `dXXP")
+print ("                     `'      9XXXXXX(   )XXXXXXP      `'")
+print ("                              XXXX X.`v'.X XXXX")
+print ("                              XP^X'`b   d'`X^XX")
+print ("                              X. 9  `   '  P )X")
+print ("                              `b  `       '  d'")
+print ("                               `             '")
+print ('')
+print ('--------------------------------BL@CK IDENTITY-----------------------------------')
+print ('')
+print ('                           Plese tipe here your ID')
+#IMPORT ADD-ON
+print ('')
+x=input()
+while x!='0':
+    import menu
+    continue

